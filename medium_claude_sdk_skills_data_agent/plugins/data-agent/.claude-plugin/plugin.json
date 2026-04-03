@@ -1,0 +1,8 @@
+{
+    "name": "data-agent",
+    "version": "1.0.0",
+    "description": "Understands the user questions, translates it into SQL query, executes the SQL query, and returns synthesized results.",
+    "author": {
+        "name": "Rohin Mahesh"
+    }
+}
