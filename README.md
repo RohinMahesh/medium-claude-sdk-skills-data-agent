@@ -1,5 +1,5 @@
-# Claude Agent SDK Data Agent
-![Build Status](https://github.com/RohinMahesh/medium-claude-sdk-bigquery-agent/actions/workflows/ci.yaml/badge.svg)
+# Claude Agent SDK Skills Data Agent
+![Build Status](https://github.com/RohinMahesh/medium-claude-sdk-skills-data-agent/actions/workflows/ci.yaml/badge.svg)
 
 ## Table of Contents
 
