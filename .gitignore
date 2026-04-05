@@ -1,0 +1,5 @@
+scratch/
+.DS_Store
+.env
+.claude/
+__pycache__/

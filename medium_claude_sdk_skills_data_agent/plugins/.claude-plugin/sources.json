@@ -1,0 +1,13 @@
+{
+    "name": "data-agent-plugins",
+    "owner": {
+        "name": "Rohin Mahesh"
+    },
+    "plugins": [
+        {
+            "name": "data-agent",
+            "source": "./data-agent",
+            "description": "Understands the user questions, translates it into SQL query, executes the SQL query, and returns synthesized results."
+        }
+    ]
+}

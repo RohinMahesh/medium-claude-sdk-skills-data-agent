@@ -1,0 +1,7 @@
+[tool.ruff]
+target-version="py312"
+
+[tool.ruff.lint.per-file-ignores]
+"medium_claude_sdk_skills_data_agent/core/agent.py" = [
+    "E402" # ignore import ordering due to env vars and configs
+]
