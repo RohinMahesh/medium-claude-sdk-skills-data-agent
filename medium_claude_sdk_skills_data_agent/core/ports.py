@@ -20,14 +20,14 @@ class PersistencePort(ABC):
 
     @abstractmethod
     async def restore_checkpoint(
-        self, session_id: str, messages: list[dict], checkpoint_dir: str
+        self, thread_id: str, checkpoint_dir: str, messages: list[dict]
     ) -> None:
         """
         Writes the loaded session state to the local checkpoint file
 
-        :param session_id: the session ID being restored
-        :param messages: message dicts previously returned by load_session
+        :param thread_id: the thread ID being restored
         :param checkpoint_dir: the directory for checkpoint files
+        :param messages: message dicts previously returned by load_session
         """
         pass
 
@@ -39,7 +39,7 @@ class PersistencePort(ABC):
         Reads the latest local checkpoint file and persists to Firestore
 
         :param user_id: logical owner of the session
-        :param session_id: unique thread identifier
+        :param thread_id: unique thread identifier
         :param checkpoint_dir: the directory for checkpoint files
         """
         pass
