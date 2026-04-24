@@ -1,3 +1,8 @@
+---
+name: queries
+description: Provides domain knowledge for translating questions into BigQuery SQL executing queries, and synthesizing results. Invoke this skill before generating any SQL query.
+---
+
 # BigQuery Query Skill
 
 ## Overview
